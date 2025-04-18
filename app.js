@@ -22,8 +22,6 @@ while (true) {
         todo.splice(idx,1);
         console.log("task deleted")
 
-    }else{
-        console.log("wrong request");
     }
 
     req = prompt("Please enter your request");
